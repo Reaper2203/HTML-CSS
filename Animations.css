@@ -1,0 +1,64 @@
+#p1{
+	width: 100px;
+	height: 100px;
+	background: red;
+	font-size: 85px;
+	text-align: center;
+	margin: 0px;
+}
+#p1:hover{ /* animation activates when the cursor is in it */
+	animation: RotateAnimations;
+	animation-duration: 5s; /*seconds */
+	animation-iteration-count: infinite; /*repeat*/
+}
+/* keyframe rule or the animations */
+@keyframes ColorAnimation{
+	/*from{background-color: red}
+	to{background-color: blue}*/
+	0%{background-color: red;}
+	20%{background-color: orange;}
+	40%{background-color: yellow;}
+	60%{background-color: green;}
+	80%{background-color: blue;}
+	100%{background-color: purple;}	
+}
+@keyframes RotateAnimations{
+	
+	100%{transform: rotateZ(360deg);}
+}
+
+@keyframes TranslateAnimation{ /*move*/
+	50%{transform: translate(100px,100px);}
+	/* X and Y */
+}
+
+@keyframes ScaleAnimation{ /*size*/
+	50%{transform: scale(2,2);}
+	/* expands 2timesX, 2timesY */
+}
+
+@keyframes OpacityAnimation{
+	0%{opacity: 0}
+	50%{opacity: 1}/* 1 is 100% */
+	100%{opacity: 0}/* fades in and out*/
+}
+
+@keyframes FontAnimation{
+	0%{font-size: 85px;}
+	100%{font-family: Arial black;}
+	100%{font-size: 400px;}
+
+}
+
+@keyframes Combined{
+	0%{background-color: red;}
+	20%{background-color: orange;}
+	40%{background-color: yellow;}
+	45%{transform: translate(100px,100px);}
+	50%{transform: scale(2,2);}
+	60%{background-color: green;}
+	80%{background-color: blue;}
+	100%{background-color: purple;}	
+	90%{font-size: 200px;}
+	100%{transform: rotateZ(360deg);}
+}

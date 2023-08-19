@@ -1,0 +1,19 @@
+html{
+
+	background-image: url("Sportscar.jpg");
+	background-repeat: no-repeat;/*no repeating images*/
+	background-position: center;
+	background-size: Cover;
+	background-attachment: fixed; /*to expand image to full size*/
+
+}
+
+p{
+	color: whitesmoke;
+	background: linear-gradient(to right,#ff5733,black);
+	/*background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;*/
+}
+/*Comment*/

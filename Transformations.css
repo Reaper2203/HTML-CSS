@@ -1,0 +1,35 @@
+p{
+	width: 100px;
+	background: lightblue;
+	font-size: 85px;
+	text-align: center;
+	margin: 0px;
+}
+#p1{
+
+}
+#p2{
+	/*transform: translateX(50px);
+	transform: translateY(50px);
+	transform: translate(50px, 50px); /*moving x and y
+	transform: rotateX(45deg);/*degrees
+	transform: rotateY(45deg);
+	transform: rotateZ(45deg);
+	transform: rotate(180deg); /* rotations 
+	transform: scaleX(2); /* 2 times it's size
+	transform: scaleY(2);
+	transform: scale(2,2); /* stretching or squeezing x and y 
+	transform: skewY(10deg); /* like 3D rotation
+	transform: skewX(10deg);*/
+
+	transform: matrix(0.2, 1, 1, 0.2, 50, 50);
+	/* combining six transformations */
+	/*
+		scaleX(),
+		skewY(),
+		SkewX(),
+		scaleY(),
+		translateX(),
+		translateY()
+	*/
+}

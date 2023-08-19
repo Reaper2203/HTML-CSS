@@ -1,0 +1,41 @@
+a:link{
+	color: aquamarine;
+}
+a:visited{ /* when the link has been already clicked*/
+	color: mediumpurple;
+}
+button:hover{ /* is when the cursor is on the button*/
+	border-color: skyblue;
+	border-radius: 10%;
+}
+button:active{ /* when the button is clicked*/
+	background-color: lightblue;
+}
+/* --the nth-child is the number of the list
+li:first-child{
+	background-color: limegreen;
+}
+li:last-child{
+	background-color: greenyellow;
+}
+li:nth-child(6){
+	background-color: indianred;
+} 
+li:nth-child(odd){
+	background-color: orange;
+}
+li:nth-child(even){
+	background-color: palegoldenrod;
+} */
+li:nth-child(3n+1){ /*starts at 1*/
+
+	/*
+		nth-child(an+b)
+		a= cycle size
+		n= counter (starts at 0)
+		b= offset value
+	*/
+	background-image: linear-gradient(to right, #fff421, #ffffff);
+	opacity: 0.5;
+	border: 1px solid;
+}

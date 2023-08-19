@@ -1,0 +1,39 @@
+html{
+	margin-top: -20px;
+	margin-left: -7px;
+}
+
+body{
+	background-color: #111111;
+}
+
+h1{
+	color: aquamarine;
+	border:1px solid;
+	width: 300px;
+}
+p{
+	color: white;
+	border: 1px solid;
+	width: 250px;
+	padding: 25px; /*distance between the text and the border*/
+}
+
+#p1{
+	margin: 25px;
+}
+#p2{
+	margin-top: 25px;
+	margin-right: 75px;
+	margin-bottom: 25px;
+	margin-left: 75px;
+	/* margin: top right bottom left; -shortcut*/
+	margin: 25px 75px 25px 75px;
+}
+#p3{
+	margin: 10%;
+	margin-left: auto;
+}
+#p4{
+	margin: auto;
+}
