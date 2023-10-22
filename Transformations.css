@@ -19,10 +19,10 @@ p{
 	transform: scaleX(2); /* 2 times it's size
 	transform: scaleY(2);
 	transform: scale(2,2); /* stretching or squeezing x and y 
-	transform: skewY(10deg); /* like 3D rotation
+	transform: skewY(10deg); /* like 3D rotation, tumatagilid
 	transform: skewX(10deg);*/
 
-	transform: matrix(0.2, 1, 1, 0.2, 50, 50);
+	transform: matrix(0.2, 1, 1, 0.2, 50, 50); /* from left to right
 	/* combining six transformations */
 	/*
 		scaleX(),
