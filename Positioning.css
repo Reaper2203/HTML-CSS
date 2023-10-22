@@ -4,10 +4,10 @@ p{
 	width: 250px;
 }
 #p1{
-	text-align: left;
+	text-align: left; 	/*text to the left
 }
 #p2{
-	text-align: center;
+	text-align: center;	/*text to the center
 }
 #p3{
 	text-align: right;
@@ -15,7 +15,7 @@ p{
 /* -- float --
 
 img{
-	float:left;
+	float:left;	/*when you use float the next element will move to the left
 	margin: 5px;
 }
 div{
