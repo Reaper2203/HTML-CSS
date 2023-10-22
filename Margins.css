@@ -1,5 +1,5 @@
 html{
-	margin-top: -20px;
+	margin-top: -20px; /*adding margin to the top part */
 	margin-left: -7px;
 }
 
@@ -10,7 +10,7 @@ body{
 h1{
 	color: aquamarine;
 	border:1px solid;
-	width: 300px;
+	width: 300px; 	/*wideness, kung gano kalapad*/
 }
 p{
 	color: white;
@@ -32,7 +32,7 @@ p{
 }
 #p3{
 	margin: 10%;
-	margin-left: auto;
+	margin-left: auto; /*automatically sets margin to the left*/
 }
 #p4{
 	margin: auto;
