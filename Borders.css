@@ -4,10 +4,10 @@ body{
 }
 
 h1{
-	border-top: dotted;
+	border-top: dotted; /* style of the border on the top part (dotted)*/
 	border-bottom: dotted;
-	border-left-style: solid;
-	border-left-width: 10px;
+	border-left-style: solid; /* style of the left side of the border, solid line*/
+	border-left-width: 10px;	/* px, also known as pixels*/
 }
 
 p{
@@ -20,7 +20,7 @@ p{
 	border-style: groove;
 	border-style: inset;
 	border-style: outset;
-	border-width: 3px;
+	border-width: 3px;	/*gano kalapad*/
 	border-color: #00ff00;
-	border-radius: 10px;
+	border-radius: 10px;	/*border raduis, for round edges*/
 }
