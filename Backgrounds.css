@@ -1,16 +1,16 @@
 html{
 
-	background-image: url("Sportscar.jpg");
-	background-repeat: no-repeat;/*no repeating images*/
+	background-image: url("Sportscar.jpg");	/*image as the background of the body*/
+	background-repeat: no-repeat;/*no repeating images, only one image will be shown*/
 	background-position: center;
-	background-size: Cover;
+	background-size: Cover; /*covers the whole body of HTML, stretched*/
 	background-attachment: fixed; /*to expand image to full size*/
 
 }
 
 p{
 	color: whitesmoke;
-	background: linear-gradient(to right,#ff5733,black);
+	background: linear-gradient(to right,#ff5733,black); /* gradient color, fading*/
 	/*background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
