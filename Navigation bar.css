@@ -1,13 +1,13 @@
 ul{
-	list-style-type: none;
+	list-style-type: none;	/*removing the list style, or the bullets */
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
 	background-color: #444444;
 }
 li a{
-	float: left;
-	display: block;
+	float: left;	/*floats to the left*/
+	display: block;		/*displays as a block element*/
 	color: whitesmoke;
 	padding: 10px 15px;
 	text-align: center;
