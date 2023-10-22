@@ -6,7 +6,7 @@ h1{
 	color: ghostwhite;
 	border-color: #666666;
 
-	text-shadow: 0px 1px 5px lightblue, 0px 3px 3px blue;
+	text-shadow: 0px 1px 5px lightblue, 0px 3px 3px blue; /*has two different color text shadows*/
 
 	/* horizontal (px)
 		vertical (px)
