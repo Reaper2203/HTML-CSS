@@ -12,19 +12,19 @@ button:active{ /* when the button is clicked*/
 	background-color: lightblue;
 }
 /* --the nth-child is the number of the list
-li:first-child{
+li:first-child{		//selecting the first child, or the first list
 	background-color: limegreen;
 }
-li:last-child{
+li:last-child{		//the last of the list
 	background-color: greenyellow;
 }
-li:nth-child(6){
+li:nth-child(6){	//the 6th list 
 	background-color: indianred;
 } 
-li:nth-child(odd){
+li:nth-child(odd){	//selecting only the odd numbers, 1, 3, 5 etc.
 	background-color: orange;
 }
-li:nth-child(even){
+li:nth-child(even){	//selecting even numbers, 2, 4, 6 etc...
 	background-color: palegoldenrod;
 } */
 li:nth-child(3n+1){ /*starts at 1*/
@@ -36,6 +36,6 @@ li:nth-child(3n+1){ /*starts at 1*/
 		b= offset value
 	*/
 	background-image: linear-gradient(to right, #fff421, #ffffff);
-	opacity: 0.5;
+	opacity: 0.5;	/* clearliness of an object/text */
 	border: 1px solid;
 }
