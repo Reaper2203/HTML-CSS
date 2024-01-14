@@ -1,2 +1,2 @@
-# HTML-CSS
-html and css lessons
+# HTML-CSS-PHP-JS
+HTML,CSS,PHP,JavaScript
